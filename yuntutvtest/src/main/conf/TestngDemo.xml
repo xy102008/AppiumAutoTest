@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- @BeforeSuite -->
+<suite name="TestAll">
+
+    <!-- <listeners>
+           <listener class-name="com.appiumreport.TestReport"/>
+       </listeners> -->
+       <!-- @BeforeTest  class按顺序执行 -->
+    <test name="case1" preserve-order = "true">
+        <classes>
+            <class name="com.testcase.BaseTest"/>
+            <class name="com.testcase.SwipeTest" >
+            </class>
+    <!--   <class name="com.testcase.SearchTest">
+           <methods>
+               <include name="searchTestA"/>
+               <include name="searchHistory"/>
+          <include name="searchTestB"/>
+               <include name="searchTestC"/>
+               <include name="searchTestD"/>
+  </methods>
+</class>-->
+       <class name="com.testcase.PlayTest" />
+</classes>
+</test>
+<!-- @AfterTest -->
+</suite>
+    <!-- @AfterSuite -->

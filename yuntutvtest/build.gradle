@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/testng-6.8.10.jar')
+    compile files('libs/java-client-4.1.2.jar')
+    compile files('libs/assertj-core-1.7.0.jar')
+    compile files('src/main/java/libs/selenium-server-standalone-3.0.0-beta3.jar')
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+    compile files('libs/dom4j-1.6.1.jar')
+    compile 'junit:junit:4.12'
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

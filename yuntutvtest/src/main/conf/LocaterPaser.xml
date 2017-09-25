@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+    <!--locator of page map info -->
+    <page pageName="HomePage">
+        <!--Locator lists -->
+        <locator name="searchButton"  type="id"  value="org.fungo.fungolive:id/et_search">首页搜索</locator>
+        <locator name="inputButton"  type="id"  value="org.fungo.fungolive:id/edittext_search">输入搜索</locator>
+        <locator name="cancel_search"  type="id"  value="org.fungo.fungolive:id/cancel_search">取消搜索</locator>
+        <locator name="earse_search"  type="id"  value="org.fungo.fungolive:id/earse_search">删除搜索框内容</locator>
+        <locator name="search_title_name"  type="id"  value="org.fungo.fungolive:id/search_title_name">搜索结果的title name</locator>
+        <locator name="no_search_result"  type="class"  value="android.widget.TextView">无搜索结果</locator>
+        <locator name="hot_search"  type="id"  value="org.fungo.fungolive:id/search_word">热门搜索词和搜索历史</locator>
+        <locator name="hotPlay"  type="name"  value="热播">热播</locator>
+        <locator name="movie"  type="name"  value="影视">影视</locator>
+        <locator name="CCTV"  type="name"  value="央视">央视</locator>
+        <locator name="star-TV"  type="name"  value="卫视">卫视</locator>
+        <locator name="sportsTV"  type="name"  value="体育">体育</locator>
+        <locator name="localTV"  type="name"  value="地方">地方</locator>
+        <locator name="featuredChannel"  type="name"  value="特色">特色</locator>
+        <locator name="allTVButton"  type="name"  value="全部">全部</locator>
+        <locator name="skyButton" type="path"  value="//android.widget.TextView[contains(@text,'天空之城')]">天空之城</locator>
+        <locator name="mineButton" type="path"  value="//android.widget.TextView[contains(@text,'我')]">我</locator>
+        <locator name="ad_closeButton" type="id"  value="org.fungo.fungolive:id/iv_ad_close">关闭广告</locator>
+        <locator name="ad_openButton" type="id"  value="org.fungo.fungolive:id/tv_ad_single_content">打开广告</locator>
+        <locator name="bottom_more_text" type="id"  value="org.fungo.fungolive:id/bottom_more_text">滑动到底部的text描述</locator>
+        <locator name="bottom_exit" type="id"  value="org.fungo.fungolive:id/tv_ad_left_content">确认退出</locator>
+        <locator name="bottom_notexit" type="id"  value="org.fungo.fungolive:id/tv_ad_right_content">不退出打开广告</locator>
+    </page>
+
+    <page pageName="minePage">
+        <!--Locator lists -->
+        <locator name="logintStat" type="id"  value="org.fungo.fungolive:id/tv_top_nickname">登陆状态</locator>
+        <locator name="favor_count" type="id"  value="org.fungo.fungolive:id/my_favor_count">我的收藏</locator>
+        <locator name="watch_count" type="id"  value="org.fungo.fungolive:id/recent_watch_count">观看历史数</locator>
+        <locator name="order_count" type="id"  value="org.fungo.fungolive:id/my_order_count">预约节目数</locator>
+        <locator name="settingview"  type="id"  value="org.fungo.fungolive:id/settings_view">设置</locator>
+        <locator name="Cloud money"  type="id"  value="org.fungo.fungolive:id/text_second_duihuan">我的云币</locator>
+        <locator name="" type="path"  value="//android.widget.TextView[contains(@text,'礼品卡')]">礼品卡</locator>
+        <locator name="" type="path"  value="//android.widget.TextView[contains(@text,'上传队列')]">上传列表</locator>
+        <locator name="" type="path"  value="//android.widget.TextView[contains(@text,'消息')]">消息</locator>
+        <locator name="" type="path"  value="//android.widget.TextView[contains(@text,'我的收藏')]">我的收藏</locator>
+        <locator name="" type="path"  value="//android.widget.TextView[contains(@text,'更多')]">更多</locator>
+        <locator name="" type="path"  value="//android.widget.TextView[contains(@text,'设置')]">设置</locator>
+
+    </page>
+
+
+    <page pageName="loginPage">
+        <!--Locator lists -->
+
+    </page>
+
+    <page pageName="playPage">
+        <!--Locator lists -->
+        <locator name="share_icon" type="id"  value="org.fungo.fungolive:id/share_icon">分享</locator>
+        <locator name="change_ori" type="id"  value="org.fungo.fungolive:id/vertical_change_ori">全屏</locator>
+        <locator name="exit_button" type="id"  value="org.fungo.fungolive:id/exit_button_v">退出</locator>
+        <locator name="vertical_fav" type="id"  value="org.fungo.fungolive:id/vertical_fav">收藏</locator>
+        <locator name="vertical_sourcel" type="id"  value="org.fungo.fungolive:id/vertical_sourcel">切换播放源</locator>
+        <locator name="buffer_percent" type="id"  value="org.fungo.fungolive:id/buffer_percent_vertical">播放缓冲</locator>
+        <locator name="video_view" type="id"  value="org.fungo.fungolive:id/video_view">视频区的view</locator>
+        <locator name="give_comment" type="id"  value="org.fungo.fungolive:id/give_comment">评论输入框</locator>
+        <locator name="send_button" type="id"  value="org.fungo.fungolive:id/send_button">发表评论</locator>
+        <locator name="user_name" type="id"  value="org.fungo.fungolive:id/user_name">评论者名字</locator>
+        <locator name="send_button" type="id"  value="org.fungo.fungolive:id/content">评论内容</locator>
+        <locator name="comment"  type="name"  value="评论">评论</locator>
+        <locator name="Daily_anchor"  type="name"  value="每日精选主播">每日精选主播</locator>
+        <locator name="Look_back"  type="name"  value="回看-预约">回看-预约</locator>
+    </page>
+
+
+    <page pageName="livePage">
+        <!--Locator lists -->
+
+    </page>
+
+</map>
